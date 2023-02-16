@@ -1,0 +1,58 @@
+{
+ "object": "Module",
+ "userkey": "SimSheperd",
+ "item": {
+  "mdl_name": "SimSheperd",
+  "mdl_prefix": "shp",
+  "mdl_version": "0.1",
+  "mdl_type": "X",
+  "mdl_url": null,
+  "mdl_comment": null
+ },
+ "links": [{
+  "object": "Resource",
+  "label": "Resources",
+  "icon": "img/system/resource",
+  "field": "row_module_id",
+  "list": [{
+   "object": "Resource",
+   "userkey": "Disposition(responsive5)~ANY~SCRIPT",
+   "item": {
+    "res_object": {
+     "item": {"dis_code": "responsive5"},
+     "icon": "img/system/disposition",
+     "label": "Disposition",
+     "row_id": "15",
+     "userkeylabel": "responsive5",
+     "object": "Disposition"
+    },
+    "res_type": "JS",
+    "res_lang": "ANY",
+    "res_code": "SCRIPT",
+    "res_cached": true,
+    "res_file": {
+     "path": "resources/Disposition/responsive5/SCRIPT.js",
+     "size": 2157,
+     "field": "res_file",
+     "mime": "text/javascript",
+     "name": "responsive_SCRIPT.js",
+     "id": "5249",
+     "object": "Resource",
+     "rowid": "263"
+    },
+    "res_file_compiled": {
+     "path": "resources/Disposition/responsive5/SCRIPT.min.js",
+     "size": 1781,
+     "field": "res_file_compiled",
+     "mime": "text/javascript",
+     "name": "responsive_SCRIPT.min.js",
+     "id": "7136",
+     "object": "Resource",
+     "rowid": "263"
+    },
+    "res_image": null,
+    "row_module_id__mdl_name": "SimSheperd"
+   }
+  }]
+ }]
+}
